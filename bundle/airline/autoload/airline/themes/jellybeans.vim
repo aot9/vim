@@ -11,7 +11,7 @@ function! airline#themes#jellybeans#refresh()
   " compatible color array is generated.
   let s:N1 = airline#themes#get_highlight('DbgCurrent', 'bold')
   let s:N2 = airline#themes#get_highlight('Folded')
-  let s:N3 = airline#themes#get_highlight('NonText')
+  let s:N3 = airline#themes#get_highlight('custom_airline_c')
 
   let g:airline#themes#jellybeans#palette.accents = {
         \ 'red': airline#themes#get_highlight('Constant'),
