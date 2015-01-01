@@ -70,6 +70,8 @@ set nosmd " don't show mode in command bar
 set cc=81 " draw vertical line through column
 set laststatus=2 " always show statusline
 set timeoutlen=200 " time between mode switching in ms
+set t_ut= " fix background clear color issue
+
 "My common mistakes
 abbr pritn print
 
