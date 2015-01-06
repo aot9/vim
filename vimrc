@@ -61,6 +61,7 @@ hi custom_airline_c ctermbg=235
 execute pathogen#infect('~/.vim/bundle/{}')
 execute pathogen#helptags()
 
+set number " enable line numbering
 set smartindent   
 set backspace=2 " make backspace work like most other apps
 set shiftwidth=4
