@@ -50,6 +50,7 @@ endif
 
 " nocompatible is neccessary for pathogen
 set nocp 
+autocmd VimLeave * call system("xsel -ib", getreg('+'))
 autocmd ColorScheme * highlight TrailingWhitespace ctermbg=NONE ctermfg=NONE
 autocmd BufEnter * :match TrailingWhitespace /^ \+\|\s\+$/
 colorscheme jellybeans "wombat256mod  
